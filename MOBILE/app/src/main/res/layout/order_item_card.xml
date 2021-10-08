@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="150dp">
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/Order_Item_Image"
+            android:padding="5dp"
+            android:src="@drawable/ic_launcher_background"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="Item Name"
+            android:layout_marginLeft="150dp"
+            android:id="@+id/Order_Item_name"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="Quentity"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="150dp"
+            android:id="@+id/Order_Item_qty"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="Sub total"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="150dp"
+            android:id="@+id/Order_Item_subtotal"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">csseproject</string>
+    <string name="main_page_selected">%s page is selected</string>
+    <string name="ItemName">itemName</string>
+
+
+    <string name="productName">Product Name</string>
+    <string name="ProductPrice">Product Price</string>
+    <string name="instock">In Stock</string>
+    <string name="outStock">Out Stock</string>
+    <string name="DeliveryArea">Delivery Area</string>
+    <string name="DeliveryDate">Delivery Date</string>
+    <string name="productDescription">Product Description</string>
+    <string name="CODAvaliable">COD Available</string>
+    <string name="CODUnavaliable">COD Unavailable</string>
+    <string name="addProduct">Add Product</string>
+    <string name="productCategory">Product Category</string>
+    <string name="view_product_details">View Product Details</string>
+    <string name="delete">delete</string>
+    <string name="update">update</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_title">ALL4PETS</string>
+
+    <string name="nav_header_subtitle">ALL4PETS@gamil.com</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_logout">LOGOUT</string>
+
+    <string name="action_setting">Setting</string>
+
+    <string name="menu_home">Home</string>
+
+    <string name="menu_gallery">Gallery</string>
+
+    <string name="menu_slideshow">Contact Us</string>
+
+    <string name="email">Email</string>
+
+    <string name="password">Password</string>
+
+    <string name="rememberme">Remember Me</string>
+
+    <string name="login">Login</string>
+
+    <string name="forgotpassword">Forgot Password</string>
+
+    <string name="signup">Sign Up</string>
+
+    <string name="firstname">First Name</string>
+
+
+    <!--Salika-->
+
+
+    <string name="lastName">Last Name</string>
+
+    <string name="mobile">Mobile</string>
+
+    <string name="retypepassword">Retype Password</string>
+
+    <string name="signin">Sign In</string>
+
+    <string name="logout">Logout</string>
+
+    <string name="title_activity_adminpa">Adminpa</string>
+
+    <string name="changeprofile">Change Profile</string>
+
+    <string name="deleteprofile">Delete Profile</string>
+
+    <string name="save">Save</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="oldpassword">Current Password</string>
+
+    <string name="newpassword">New Password</string>
+
+    <string name="changepassowrd">Change password</string>
+
+    <string name="confirmpassword">ConfirmPassowrd</string>
+
+    <string name="resetpassword">Reset Password</string>
+
+    <string name="invalid_name">Please Enter Your Name  !!!!!</string>
+
+    <string name="invalid_email">Please Enter Valid Email !!!!!!!</string>
+
+
+    <string name="invalid_message">Please Enter Your Message  !!!!!</string>
+    <string name="invalid_ownerName">Please Enter Owner Name !!!!</string>
+    <string name="invalid_petName">Please Enter ur Pet Name  !!!</string>
+    <string name="invalid_date">Please Enter Appointment Date !!!!</string>
+    <string name="invalid_NotificationTitle">Enter Ur Notification Title !!!!</string>
+    <string name="Deliver_name">Your Name</string>
+    <string name="Delivery_phone">Your Phone Number</string>
+
+    <string name="delivary_address">Your Address</string>
+    <string name="deli_Province">Province</string>
+    <string name="Deli_District">District</string>
+    <string name="Deli_City">City</string>
+    <string name="btn_Buy_Now">Buy Now</string>
+    <string name="show_order_products">show this order products</string>
+    <string name="Date_Time">Date Time</string>
+    <string name="Address_City">Address,City</string>
+    <string name="Total_price">Total price</string>
+    <string name="User_Name">UserName</string>
+    <string name="Phone_number">Phone number</string>
+    <string name="Product_Name">Product Name</string>
+    <string name="Product_Quantity">Product Quantity</string>
+    <string name="Product_Price">Product Price</string>
+    <string name="btn_Add_to_cart">Add to cart</string>
+    <string name="lbl_Product_Details">Product Details</string>
+    <string name="btn_cart_Next">Next</string>
+    <string name="New_Orders">New Orders</string>
+    <string name="emmpty_name">Please provide your full name</string>
+    <string name="emmpty_phone">Please provide your phone number</string>
+    <string name="emmpty_Address">Please provide your Address</string>
+    <string name="emmpty_province">Please provide your province</string>
+    <string name="emmpty_district">Please provide your district</string>
+    <string name="emmpty_city">Please provide your city</string>
+    <string name="addProducts">Add Products</string>
+
+
+    <string name="Productname">"      Product name"</string>
+
+
+    <string name="price">"      Price     "</string>
+    <string name="brand">"    Brand    "</string>
+    <string name="discription">"      Discription"</string>
+    <string name="available">Available</string>
+    <string name="notAvailable">Not-Available</string>
+    <string name="ProductBrand">Product Brand</string>
+    <string name="Productprice">Product price</string>
+
+    <string name="ProductDiscription">Product Discription</string>
+
+    <string name="OwnerName">Owner Name</string>
+
+    <string name="PetName">Pet Name</string>
+    <string name="Type">Type</string>
+    <string name="Breed">Breed</string>
+    <string name="Date">Date</string>
+    <string name="Diseases">Diseases</string>
+    <string name="Vaccine">Vaccine</string>
+    <string name="Surgery">Surgery</string>
+    <string name="FEEDBACK">FEEDBACK</string>
+    <string name="profile">Profile</string>
+    <string name="product">Product</string>
+    <string name="payment">Payment</string>
+    <string name="discount">Discount</string>
+    <string name="feedback">Feedback</string>
+</resources>

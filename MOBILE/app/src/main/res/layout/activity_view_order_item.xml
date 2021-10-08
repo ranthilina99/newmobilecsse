@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newbackground"
+    tools:context=".ViewOrderItem">
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="694dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/search_item_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order Items"
+                android:textColor="@color/darkGreen"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/searchItems_all"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/search_item_all"
+                android:layout_margin="5dp"
+                android:background="@drawable/saech"
+                android:drawableStart="@drawable/search_img"
+                android:hint="Search"
+                android:padding="15dp" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/searchItems_all"
+                android:background="@drawable/superback"
+                android:id="@+id/card_order_item">
+                <LinearLayout
+                    android:id="@+id/layer"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Supplier: "
+                        android:textSize="23dp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/Order_item_supplier_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Supplier "
+                        android:layout_marginLeft="2dp"
+                        android:textSize="23dp"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/layer1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/layer"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Total Price: "
+                        android:textSize="23dp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/Order_item_total"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Rs:1500.00:"
+                        android:layout_marginLeft="2dp"
+                        android:textSize="23dp"
+                        android:textColor="@color/red"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/layer3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:layout_marginTop="60dp"
+                    android:layout_below="@+id/layer1"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Status: "
+                        android:textSize="23dp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/Order_item_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="Pending"
+                        android:layout_marginLeft="2dp"
+                        android:textSize="23dp"
+                        android:textColor="@color/teal_200"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <ScrollView
+                android:id="@+id/layer9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/searchItems_all"
+                android:layout_marginTop="100dp">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/card_recycleView_Order_items"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </androidx.recyclerview.widget.RecyclerView>
+            </ScrollView>
+
+            <Button
+                android:id="@+id/delete_Order"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/layer9"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:onClick="onClick"
+                android:text="delete Order" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

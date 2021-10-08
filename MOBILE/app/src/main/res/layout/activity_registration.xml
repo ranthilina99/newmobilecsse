@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newbackground"
+    android:orientation="vertical"
+    tools:context=".Registration">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/applogo"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="98dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentTop="true"-->
+
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="68dp"-->
+<!--        android:src="@drawable/hugo"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.454"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <EditText
+        android:id="@+id/registerlastname"
+        android:layout_width="382dp"
+        android:layout_height="55dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/round_border"
+        android:ems="10"
+        android:hint="lastName"
+        android:inputType="textPersonName"
+        android:padding="16dp"
+        android:textColor="#090707"
+        android:textColorHint="#757171"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerfirstname"
+        app:layout_constraintVertical_bias="0.031" />
+
+    <EditText
+        android:id="@+id/registerpassword"
+        android:layout_width="384dp"
+        android:layout_height="51dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/round_border"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:textColor="#0B0909"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registermobile"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/registeremail"
+        android:layout_width="384dp"
+        android:layout_height="51dp"
+        android:layout_margin="10dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="14dp"
+        android:background="@drawable/round_border"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        android:textColor="#1E1818"
+        android:textColorHint="#958E8E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.727"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerlastname"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/registerretypepassowrd"
+        android:layout_width="385dp"
+        android:layout_height="52dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/round_border"
+        android:ems="10"
+        android:hint="retypepassword"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:textColor="#100F0F"
+        android:textColorHint="#8A8080"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerpassword"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/btnforgot"
+        android:layout_width="218dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:text="Already Have An Account?"
+        android:textColor="#FC1313"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnregcreateaccount"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtsigiin"
+        android:layout_width="54dp"
+        android:layout_height="32dp"
+        android:text="signin"
+        android:textColor="#FC1313"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.899"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnregcreateaccount"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/registerfirstname"
+        android:layout_width="384dp"
+        android:layout_height="51dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/round_border"
+        android:ems="10"
+        android:hint="firstname"
+        android:inputType="textPersonName"
+        android:padding="16dp"
+        android:textColor="#100E0E"
+        android:textColorHint="#817B7B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.302" />
+
+    <TextView
+        android:id="@+id/logins1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHOW"
+        android:textColor="#3F51B5"
+        app:layout_constraintBottom_toTopOf="@+id/registerretypepassowrd"
+        app:layout_constraintEnd_toEndOf="@+id/registerpassword"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="@+id/registerpassword"
+        app:layout_constraintTop_toTopOf="@+id/registerpassword"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/s2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHOW"
+        android:textColor="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="@+id/registerretypepassowrd"
+        app:layout_constraintEnd_toEndOf="@+id/registerretypepassowrd"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerpassword"
+        app:layout_constraintVertical_bias="0.066" />
+
+    <Button
+        android:id="@+id/btnregcreateaccount"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/round_bg"
+        android:text="Create Account"
+        android:textColor="#E8DCDC"
+        android:textColorHint="#F1ECEC"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.315"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerretypepassowrd"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/registermobile"
+        android:layout_width="383dp"
+        android:layout_height="53dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/round_border"
+        android:ems="10"
+        android:hint="mobile"
+        android:inputType="phone"
+        android:padding="16dp"
+        android:textColor="#1B1818"
+        android:textColorHint="#7C7676"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registeremail"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <TextView
+        android:id="@+id/txtwelcm"
+        android:layout_width="341dp"
+        android:layout_height="76dp"
+        android:gravity="center"
+        android:text="Registration"
+        android:textColor="@color/darkGreen"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

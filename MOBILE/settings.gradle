@@ -1,0 +1,2 @@
+rootProject.name = "csseproject"
+include ':app'

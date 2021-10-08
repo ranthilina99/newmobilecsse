@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/SLIIT LECTURES/3rd year 2nd semester/CSSE/CSSEProject/CSSEProject/MOBILE/app/src/main/res/drawable/ic_email.xml" value="0.17777777777777778" />
+        <entry key="..\:/SLIIT LECTURES/3rd year 2nd semester/CSSE/CSSEProject/CSSEProject/MOBILE/app/src/main/res/drawable/ic_lock.xml" value="0.17777777777777778" />
+        <entry key="..\:/SLIIT LECTURES/3rd year 2nd semester/CSSE/CSSEProject/CSSEProject/MOBILE/app/src/main/res/drawable/round_bg.xml" value="0.2755208333333333" />
+        <entry key="..\:/SLIIT LECTURES/3rd year 2nd semester/CSSE/CSSEProject/CSSEProject/MOBILE/app/src/main/res/layout/activity_change_password.xml" value="0.264" />
+        <entry key="..\:/SLIIT LECTURES/3rd year 2nd semester/CSSE/CSSEProject/CSSEProject/MOBILE/app/src/main/res/layout/activity_changeprofile.xml" value="0.259375" />
+        <entry key="..\:/SLIIT LECTURES/3rd year 2nd semester/CSSE/CSSEProject/CSSEProject/MOBILE/app/src/main/res/layout/activity_dashboard.xml" value="0.259375" />
+        <entry key="..\:/SLIIT LECTURES/3rd year 2nd semester/CSSE/CSSEProject/CSSEProject/MOBILE/app/src/main/res/layout/activity_forgot_password.xml" value="0.259375" />
+        <entry key="..\:/SLIIT LECTURES/3rd year 2nd semester/CSSE/CSSEProject/CSSEProject/MOBILE/app/src/main/res/layout/activity_item_view.xml" value="0.259375" />
+        <entry key="..\:/SLIIT LECTURES/3rd year 2nd semester/CSSE/CSSEProject/CSSEProject/MOBILE/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/SLIIT LECTURES/3rd year 2nd semester/CSSE/CSSEProject/CSSEProject/MOBILE/app/src/main/res/layout/activity_main.xml" value="0.23333333333333334" />
+        <entry key="..\:/SLIIT LECTURES/3rd year 2nd semester/CSSE/CSSEProject/CSSEProject/MOBILE/app/src/main/res/layout/activity_registration.xml" value="0.2552083333333333" />
+        <entry key="..\:/SLIIT LECTURES/3rd year 2nd semester/CSSE/CSSEProject/CSSEProject/MOBILE/app/src/main/res/layout/activity_specific_order_item.xml" value="0.259375" />
+        <entry key="..\:/SLIIT LECTURES/3rd year 2nd semester/CSSE/CSSEProject/CSSEProject/MOBILE/app/src/main/res/layout/activity_update_profile.xml" value="0.259375" />
+        <entry key="..\:/SLIIT LECTURES/3rd year 2nd semester/CSSE/CSSEProject/CSSEProject/MOBILE/app/src/main/res/layout/activity_view_all_items.xml" value="0.23333333333333334" />
+        <entry key="..\:/SLIIT LECTURES/3rd year 2nd semester/CSSE/CSSEProject/CSSEProject/MOBILE/app/src/main/res/layout/activity_view_item.xml" value="0.259375" />
+        <entry key="..\:/SLIIT LECTURES/3rd year 2nd semester/CSSE/CSSEProject/CSSEProject/MOBILE/app/src/main/res/layout/item_card.xml" value="0.23333333333333334" />
+        <entry key="..\:/SLIIT LECTURES/3rd year 2nd semester/CSSE/CSSEProject/CSSEProject/MOBILE/app/src/main/res/layout/order_item_card.xml" value="0.23333333333333334" />
+        <entry key="..\:/SLIIT LECTURES/3rd year 2nd semester/CSSE/CSSEProject/CSSEProject/MOBILE/app/src/main/res/layout/user_single_list.xml" value="0.259375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

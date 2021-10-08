@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.csseproject">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Csseproject">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RejectOrders"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CartActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".UpdateProfile"
+            android:exported="true"
+            android:parentActivityName=".Changeprofile" />
+        <activity
+            android:name=".Changeprofile"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ChangePassword"
+            android:exported="true"
+            android:parentActivityName=".Changeprofile" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="true" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Registration"
+            android:exported="true" />
+        <activity
+            android:name=".AcceptOrders"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Dashboard"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AddInquiry"
+            android:parentActivityName=".ViewOrder" />
+        <activity
+            android:name=".ViewOrderItem"
+            android:parentActivityName=".ViewOrder" />
+        <activity
+            android:name=".CheckItemsOrder"
+            android:parentActivityName=".ViewOrder" />
+        <activity
+            android:name=".ViewItem"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SpecificOrderItem"
+            android:parentActivityName=".ViewOrder" />
+        <activity
+            android:name=".ViewOrder"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ViewAllItems"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ItemView"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
